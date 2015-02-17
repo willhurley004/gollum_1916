@@ -18,7 +18,7 @@ require 'rubygems'
 require 'gollum'
 
 exec         = {}
-options      = { 'port' => 4567, 'bind' => '0.0.0.0' }
+options      = { 'port' => 80, 'bind' => '0.0.0.0' }
 wiki_options = {
     :live_preview  => false,
     :allow_uploads => false,
