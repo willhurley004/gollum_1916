@@ -1,1 +1,1 @@
-This page is for members of the Irish community in New York City to announce events and other happenings related to the centenary of the 1916 Easter Rising. To see what events are planned please visit the [events page](/Events)
+This page is for members of the Irish community in New York City to announce events and other happenings related to the centenary of the 1916 Easter Rising. To see what events are planned please visit the [**events page**](/Events)
