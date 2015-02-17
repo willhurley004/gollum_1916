@@ -1,4 +1,4 @@
-*  **May 7th 2015, Pier 54:** Possible event commemorating the sinking of the Cunard Line’s Luisitania off the Old Head of Kinsale on May 7, 1915. (Maureen Murphy) 
+*  **Thursday, May 7th 2015, Pier 54:** Possible event commemorating the sinking of the Cunard Line’s Luisitania off the Old Head of Kinsale on May 7, 1915. (Maureen Murphy) 
 *  **Wednesday, June 17th 2015, AIHS:** The AIHS will open it's exhibit covering the life of Jerimah O'Donovan-Rossa (Bill Hurley)
 *  **Saturday, June 27th 2015, Gaelic Park:** The GAA (Simon Gillespie and John Riordan) plans an event with O’Donovan Rossa clubs.
 *  **Sunday, June 28th 2015, Location TBD:** Cork-sponsored event (Tom Murphy)
