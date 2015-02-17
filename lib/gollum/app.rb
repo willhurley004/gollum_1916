@@ -138,6 +138,7 @@ module Precious
     end
 
     get '/edit/*' do
+      protected!
       forbid unless @allow_editing
       wikip = wiki_page(params[:splat].first)
       @name = wikip.name
@@ -165,6 +166,7 @@ module Precious
     end
 
     post '/uploadFile' do
+      protected!
       wiki = wiki_new
 
       unless wiki.allow_uploads
@@ -213,6 +215,7 @@ module Precious
     end
 
     post '/rename/*' do
+      protected!
       wikip = wiki_page(params[:splat].first)
       halt 500 if wikip.nil?
       wiki   = wikip.wiki
@@ -249,6 +252,7 @@ module Precious
     end
 
     post '/edit/*' do
+      protected!
       path      = '/' + clean_url(sanitize_empty_params(params[:path])).to_s
       page_name = CGI.unescape(params[:page])
       wiki      = wiki_new
@@ -267,6 +271,7 @@ module Precious
     end
 
     get '/delete/*' do
+      protected!
       forbid unless @allow_editing
       wikip = wiki_page(params[:splat].first)
       name  = wikip.name
@@ -282,6 +287,7 @@ module Precious
     end
 
     get '/create/*' do
+      protected!
       forbid unless @allow_editing
       wikip = wiki_page(params[:splat].first.gsub('+', '-'))
       @name = wikip.name.to_url
@@ -308,6 +314,7 @@ module Precious
     end
 
     post '/create' do
+      protected!
       name   = params[:page].to_url
       path   = sanitize_empty_params(params[:path]) || ''
       format = params[:format].intern
@@ -327,6 +334,7 @@ module Precious
     end
 
     post '/revert/*/:sha1/:sha2' do
+      protected!
       wikip = wiki_page(params[:splat].first)
       @path = wikip.path
       @name = wikip.name
