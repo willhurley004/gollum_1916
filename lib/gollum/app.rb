@@ -52,7 +52,6 @@ module Precious
     register Mustache::Sinatra
     include Precious::Helpers
     use Precious::EditingAuth
-
     dir     = File.dirname(File.expand_path(__FILE__))
 
     # Detect unsupported browsers.
@@ -525,6 +524,7 @@ module Precious
     end
 
     def update_wiki_page(wiki, page, content, commit, name = nil, format = nil)
+      protected!
       return if !page ||
           ((!content || page.raw_data == content) && page.format == format)
       name    ||= page.name
